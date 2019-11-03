@@ -1,3 +1,9 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/* * {
+  border: 1px solid gold;
+} */
+
 .App {
   text-align: center;
 }
@@ -19,4 +25,53 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+body {
+  margin: 30px;
+  background-color: #E9E9E9;
+}
+
+div.polaroid {
+  /* width: 284px;
+  padding: 10px 10px 20px 10px; */
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 1px 1px 5px #aaaaaa;
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+.btnStyle1 {
+  border-radius: 0%;
+  text-transform: uppercase;
+  width: 85px;
+  line-height:1.25em;
+}
+
+.PockmonTitle {
+  background-color:#105740;
+  color: white;
+  line-height:38px;    
+  /* text-align: left;
+  padding-left:12px; */
+}
+
+input[type="button"]:disabled {
+  /* background: #dddddd; */
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;  
 }
